@@ -4,7 +4,7 @@
     <a href="index3.html" class="brand-link">
     <img src="/img/logo.png" alt="Laravel Starter" class="brand-image img-circle elevation-3"
    style="opacity: .8">
-<span class="brand-text font-weight-light">Laravel Starter</span>
+<span class="brand-text font-weight-light">Outerbox</span>
 </a>
 
     <!-- Sidebar -->
@@ -34,7 +34,7 @@
                         <li class="nav-item">
                             <a href="{{ route('home') }}" class="nav-link {!! classActiveSegment(2, 'home') !!}">
                     <i class="fas fa-circle"></i>
-                    <p>Dashboard v1</p>
+                    <p>Dashboard Admin</p>
                   </a>
                         </li>
                         <li class="nav-item">
@@ -51,7 +51,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item">
+               <!--  <li class="nav-item">
                     <a href="pages/widgets.html" class="nav-link">
                 <i class="nav-icon fa fa-th"></i>
                 <p>
@@ -59,8 +59,8 @@
                   <span class="right badge badge-danger">New</span>
                 </p>
               </a>
-                </li>
-                <li class="nav-item has-treeview">
+                </li> -->
+                <!-- <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
                 <i class="nav-icon fas fa-chart-pie"></i>
                 <p>
@@ -72,7 +72,7 @@
                         <li class="nav-item">
                             <a href="pages/charts/chartjs.html" class="nav-link">
                     <i class="fa fa-circle-o nav-icon"></i>
-                    <p>ChartJS</p>
+                    <p>Summary Report</p>
                   </a>
                         </li>
                         <li class="nav-item">
@@ -86,10 +86,10 @@
                     <i class="fa fa-circle-o nav-icon"></i>
                     <p>Inline</p>
                   </a>
-                        </li>
+                        </li> 
                     </ul>
-                </li>
-                <li class="nav-item has-treeview">
+                </li> -->
+                <!-- <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
                 <i class="nav-icon fa fa-tree"></i>
                 <p>
@@ -123,9 +123,9 @@
                   </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
                 <li class="nav-item has-treeview">
-                    <a href="#" class="nav-link">
+                    <a href="{!! route('pcr') !!}" class="nav-link">
                 <i class="nav-icon fa fa-edit"></i>
                 <p>
                   Forms
@@ -134,12 +134,12 @@
               </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="pages/forms/general.html" class="nav-link">
+                            <a href="{{ route('pcr') }}" class="nav-link {!! classActiveSegment(2, 'pcr') !!}">
                     <i class="fa fa-circle-o nav-icon"></i>
-                    <p>General Elements</p>
+                    <p>Patient Care Report</p>
                   </a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a href="pages/forms/advanced.html" class="nav-link">
                     <i class="fa fa-circle-o nav-icon"></i>
                     <p>Advanced Elements</p>
@@ -150,10 +150,10 @@
                     <i class="fa fa-circle-o nav-icon"></i>
                     <p>Editors</p>
                   </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </li>
-                <li class="nav-item has-treeview">
+                <!-- <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
                 <i class="nav-icon fa fa-table"></i>
                 <p>
@@ -175,8 +175,8 @@
                   </a>
                         </li>
                     </ul>
-                </li>
-                <li class="nav-header">EXAMPLES</li>
+                </li> -->
+                <li class="nav-header">CHANNEL</li>
                 <li class="nav-item">
                     <a href="pages/calendar.html" class="nav-link">
                 <i class="nav-icon fa fa-calendar"></i>
@@ -291,13 +291,13 @@
                         </li>
                     </ul>
                 </li>
-                <li class="nav-header">MISCELLANEOUS</li>
+                <!-- <li class="nav-header">MISCELLANEOUS</li>
                 <li class="nav-item">
                     <a href="https://adminlte.io/docs" class="nav-link">
                 <i class="nav-icon fa fa-file"></i>
                 <p>Documentation</p>
               </a>
-                </li>
+                </li> -->
                 <li class="nav-header">LABELS</li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">

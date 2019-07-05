@@ -58,3 +58,12 @@ $response = $kernel->handle(
 $response->send();
 
 $kernel->terminate($request, $response);
+
+$basic  = new \Nexmo\Client\Credentials\Basic('e1f15448', 'afbqRFyFk1fFiRvI');
+$client = new \Nexmo\Client($basic);
+
+$message = $client->message()->send([
+    'to' => '639165966216',
+    'from' => 'Outerbox',
+    'text' => 'Hello from Outerbox Life Saver!'
+]);

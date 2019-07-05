@@ -29,9 +29,9 @@
     <div class="container-fluid">
       <!-- Small boxes (Stat box) -->
       <div class="row">
-        <div class="col-lg-3 col-6">
+        <!-- <div class="col-lg-3 col-6"> -->
           <!-- small box -->
-          <div class="small-box bg-info">
+          <!-- <div class="small-box bg-info">
             <div class="inner">
               <h3>150</h3>
 
@@ -42,7 +42,7 @@
             </div>
             <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
-        </div>
+        </div> -->
         <!-- ./col -->
         <div class="col-lg-3 col-6">
           <!-- small box -->
@@ -50,7 +50,7 @@
             <div class="inner">
               <h3>53<sup style="font-size: 20px">%</sup></h3>
 
-              <p>Bounce Rate</p>
+              <p>Emergency Rate</p>
             </div>
             <div class="icon">
               <i class="fas fa-signal"></i>
@@ -65,7 +65,7 @@
             <div class="inner">
               <h3>44</h3>
 
-              <p>User Registrations</p>
+              <p>Patient Registrations</p>
             </div>
             <div class="icon">
               <i class="fas fa-user"></i>
@@ -80,7 +80,7 @@
             <div class="inner">
               <h3>65</h3>
 
-              <p>Unique Visitors</p>
+              <p>Users</p>
             </div>
             <div class="icon">
               <i class="fas fa-chart-line"></i>
@@ -99,7 +99,7 @@
           <div class="card">
             <div class="card-header d-flex p-0">
               <h3 class="card-title p-3">
-                <i class="fa fa-pie-chart mr-1"></i> Sales
+                <i class="fa fa-pie-chart mr-1"></i> Incident Report
               </h3>
               <ul class="nav nav-pills ml-auto p-2">
                 <li class="nav-item">
@@ -443,7 +443,7 @@
           <div class="card bg-primary-gradient">
             <div class="card-header no-border">
               <h3 class="card-title">
-                <i class="fa fa-map-marker mr-1"></i> Visitors
+                <i class="fa fa-map-marker mr-1"></i> Forecast
               </h3>
               <!-- card tools -->
               <div class="card-tools">
@@ -464,18 +464,18 @@
               <div class="row">
                 <div class="col-4 text-center">
                   <div id="sparkline-1"></div>
-                  <div class="text-white">Visitors</div>
+                  <div class="text-white">Critical Level</div>
                 </div>
                 <!-- ./col -->
                 <div class="col-4 text-center">
                   <div id="sparkline-2"></div>
-                  <div class="text-white">Online</div>
+                  <div class="text-white">Normal Level</div>
                 </div>
                 <!-- ./col -->
-                <div class="col-4 text-center">
+                <!-- <div class="col-4 text-center">
                   <div id="sparkline-3"></div>
-                  <div class="text-white">Sales</div>
-                </div>
+                  <div class="text-white"></div>
+                </div> -->
                 <!-- ./col -->
               </div>
               <!-- /.row -->
@@ -487,7 +487,7 @@
           <div class="card bg-info-gradient">
             <div class="card-header no-border">
               <h3 class="card-title">
-                <i class="fa fa-th mr-1"></i> Sales Graph
+                <i class="fa fa-th mr-1"></i> Successful Responded
               </h3>
 
               <div class="card-tools">
@@ -508,7 +508,7 @@
                 <div class="col-4 text-center">
                   <input type="text" class="knob" data-readonly="true" value="20" data-width="60" data-height="60" data-fgColor="#39CCCC">
 
-                  <div class="text-white">Mail-Orders</div>
+                  <div class="text-white">SMS</div>
                 </div>
                 <!-- ./col -->
                 <div class="col-4 text-center">
@@ -520,7 +520,7 @@
                 <div class="col-4 text-center">
                   <input type="text" class="knob" data-readonly="true" value="30" data-width="60" data-height="60" data-fgColor="#39CCCC">
 
-                  <div class="text-white">In-Store</div>
+                  <div class="text-white">Walk-ins</div>
                 </div>
                 <!-- ./col -->
               </div>
